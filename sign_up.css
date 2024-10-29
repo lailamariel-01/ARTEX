@@ -1,0 +1,255 @@
+body{
+    margin: 0px;
+}
+
+.page{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(28, 42, 53);
+    margin: 0px;
+}
+
+.title{
+    width: 13%;
+    color: white;
+    font-size: 60px;
+    float: left;
+    /* line-height: 80px; */
+    text-align: center;
+    font-style: arial;
+    padding-top: 25px;
+}
+
+.navigation{
+    width: 47%;
+    height: 60px;
+    float: right;
+    text-decoration: none;
+    line-height: 130px;
+}
+
+.home{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 120px;
+}
+
+.about{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;  
+    padding-right: 40px;
+}
+
+.contact{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.signup{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 20px;
+    line-height: 100px;
+}
+
+.body{
+    height: 650px;
+    background-color: azure;
+}
+.space{
+    height: 80px;
+    background-color: azure;
+    color: rgb(28, 42, 53);
+    text-align: center;
+    font-family: freestyle script;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    line-height: 115px;
+}
+
+.container{
+    height: 500px;
+    width: 50%;
+    background-color: rgb(28, 42, 53);
+    margin-left: 338px;
+}
+
+.pic{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(28, 42, 53);
+}
+
+.picture{
+    height: 170px;
+    width: 95%;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.welcome{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(28, 42, 53);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.quest{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(28, 42, 53);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.email, .password{
+    width: 73.5%;
+    height: 30px;
+    font-size: 15x;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.In, .Up{
+    text-decoration: none;
+    color: black;
+}
+
+.start, .start1{
+    height: 35px;
+    width: 18%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border-color: white;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 270px;
+}
+
+.text2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: 290px;
+    font-weight: bold;
+}
+
+.footer{
+    height: 50px;
+    background-color: rgb(33, 37, 41);
+}
+
+@media screen and (max-width:800px){
+    .page{
+        width: 100%;
+    }
+
+    .header{
+        width: 100%;
+        height: 70px;
+        background-color: rgb(28, 42, 53);
+        margin: 0px;
+    }
+    
+
+    .title{
+        width: 10%;
+        color: white;
+        font-size: 35px;
+        float: left;
+        line-height: 50px;
+        text-align: center;
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        padding-left: 12px;
+    }
+    
+    .navigation{
+        width: 60%;
+        height: 60px;
+        /* background-color: pink; */
+        float: right;
+        text-decoration: none;
+        line-height: 100px;
+        /* font-family: tahoma; */
+    }
+    
+    .home{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        padding-right: 15px;
+        padding-left: 0px;
+    }
+    
+    .about{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;  
+        padding-right: 15px;
+    }
+    
+    .contact{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        padding-right: 15px;
+    }
+    
+    .signup{
+        text-decoration: none;
+        color: cornflowerblue;
+        font-size: 12px;
+        line-height: 100px;
+    }
+
+    .body{
+        height: 500px;
+        background-color: azure;
+    }
+    
+    .space{
+        height: 40px;
+        background-color: azure;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .container{
+        height: 550px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .start, .start1{
+        margin-left: 220px;
+    }
+    .text2{
+        margin-left: 230px;
+    }
+    .footer{
+        height: 0px;
+    }
+}
